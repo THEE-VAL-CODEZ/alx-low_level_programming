@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
  
 /**
  *  main - Entry point
@@ -8,8 +9,8 @@
 
 int main(void)
 {
-	char ch="and that piece of art is useful\" - Dora Korpar, 2015-10-1";
-
-	putchar(ch);
-	return (1);
+	write(STDOUT_FILENO, "and that piece of art is useful
+			
+			\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);	
 }
