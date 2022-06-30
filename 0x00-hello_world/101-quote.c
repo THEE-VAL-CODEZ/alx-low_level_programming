@@ -22,5 +22,5 @@ int main(void)
 	"D" (fd),
 	"S" (s),
 	"d" (l);
-	return (1);
+		return (1);
 }
