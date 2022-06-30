@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 /**
  *  main - Entry point
  *
@@ -8,6 +8,8 @@
 
 int main(void)
 {
-	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-1\n");
-		return (1);
+	char ch="and that piece of art is useful\" - Dora Korpar, 2015-10-1";
+
+	putchar(ch);
+	return (1);
 }
