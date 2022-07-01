@@ -1,0 +1,19 @@
+#include <stdio.c>
+
+/**
+ *  main - Entry point
+ *
+ *  Return: 0
+ */
+
+int main(void)
+{
+	int ch;
+
+	for (ch = 122; ch >= 97; ch++)
+		putchar(ch);
+
+	putchar(10);
+
+	return (0);
+}
