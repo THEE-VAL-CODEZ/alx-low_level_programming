@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		puts("%d", i);
+		puts(i);
 	}
 
 	return (0);
