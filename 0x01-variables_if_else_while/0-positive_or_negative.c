@@ -5,13 +5,9 @@
 #include <time.h>
 
 /**
- *  main = Entry point
+ * main = Entry point
  *
- *  return = Always 0()success
- *
- *  more headers go there
- *
- *  betty style doc for function main goes there
+ * return = Always 0()success
  */
 
 int main(void)
