@@ -12,11 +12,13 @@
 
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for (ch = 'a' ; ch <= "z" ; ch++)
+	for (ch = 97 ; ch <= 122 ; ch++)
+	{
 		putchar(ch);
-		putchar('\n');
-
+	}
+	putchar(10); /* ascii code for new line */
 	return (0);
 }
+
