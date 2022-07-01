@@ -14,10 +14,8 @@ int main(void)
 		putchar(ch);
 
 
-	int CH;
-
-	for (CH = 65; CH <= 90; CH++) /* ascii code for A= 65 and Z=90 */
-		putchar(CH);
+	for (ch = 65; ch <= 90; ch++) /* ascii code for A= 65 and Z=90 */
+		putchar(ch);
 
 	putchar(10); /* ascii code for new line */
 
