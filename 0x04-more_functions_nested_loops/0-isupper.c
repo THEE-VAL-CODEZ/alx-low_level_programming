@@ -1,6 +1,6 @@
-#include <stdio.h>
-
 #include "main.h"
+
+#include <stdio.h>
 
 /**
  *  main - check the code
@@ -17,13 +17,13 @@ int main(void)
 {
 	char c;
 
-	if (ch >= 'A' && ch <= 'Z')
-		printf("%c: %d\n", ch,  _isupper(c));
+	if (c >= 'A' &&  <= 'Z')
+		printf("%c: %d\n", c,  _isupper(c));
 			return (1);
 	
 	else
 
-		printf("%c: %d\n", ch,  _isupper(c));
+		printf("%c: %d\n", c,  _isupper(c));
 			return (0);
 }	
 	
