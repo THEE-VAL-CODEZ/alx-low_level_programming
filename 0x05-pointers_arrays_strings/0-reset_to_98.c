@@ -4,7 +4,7 @@
 /**
  *  reset_to_98 - updates value of n to 98
  *
- *  Returns: 0
+ *  Returns: Always 0
  *
  *  @n: integer pointer to a variable
  */
