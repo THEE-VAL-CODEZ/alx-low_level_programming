@@ -1,6 +1,6 @@
 #ifndef _ABS(x)_
 #define _ABS(x)_
 
-#define ((x) = (-x))
+#define ABS(x) ((x) < 0 ? -(x) : (x))
 
 #endif
