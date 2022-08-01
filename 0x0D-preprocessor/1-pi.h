@@ -1,5 +1,5 @@
-#ifndef _PI_
-#define _PI_
+#ifndef PI
+#define PI
 
 #define SIZE 3.14159265359
 
