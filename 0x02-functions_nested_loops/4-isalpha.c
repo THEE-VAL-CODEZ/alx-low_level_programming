@@ -2,7 +2,7 @@
 
 /**
  *  _isapha - Begin here
- *  @@c: character ascii code
+ *  @c: character ascii code
  *  Return: value 0 success
  *  return 1 if lower or upper case is c
  */
