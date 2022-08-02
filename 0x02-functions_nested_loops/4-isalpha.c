@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _isapha - Begin here
+ *  _isalpha - Begin here
  *  @c: character ascii code
  *  Return: value 0 success
  *  return 1 if lower or upper case is c
