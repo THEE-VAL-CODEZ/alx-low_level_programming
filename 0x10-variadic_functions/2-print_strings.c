@@ -9,14 +9,14 @@
  * @separator: word separators
  */
 
-void print_strings(const char *separator, cont unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *ptr;
 
 	va_list ap;
 
-	va_star(ap, n);
+	va_start(ap, n);
 	for (i = 0; i < n; i++)
 	{
 		ptr = va_arg(ap, char *);
