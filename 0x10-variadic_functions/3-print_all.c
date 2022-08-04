@@ -4,7 +4,8 @@
 #include <stdarg.h>
 
 /**
- * print_all - prints char, string, int, or cahr
+ * print_all - prints char, string, int, or char
+ *
  * @format: what type to print
  */
 
