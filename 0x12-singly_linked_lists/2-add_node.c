@@ -1,12 +1,11 @@
 #include "lists.h"
+#include "_strlen.c"
+
 
 /**
  * add_node - add a new node at the beginning
- *
  * @head: double pointer to head
- *
  * @str: string to be saved in new node(duplicated)
- *
  * Return: Address of new element or NULL if failed
  */
 
