@@ -1,6 +1,4 @@
 #include "lists.h"
-#include "_strlen.c"
-
 
 /**
  * add_node - add a new node at the beginning
@@ -14,7 +12,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *new_node;
 	int c;
 
-	for (c = 0; dup_str[c] != '\0'; c++)
+	list_t *add_node(list_t **head, const char *str)
 		;
 
 	new_node = malloc(sizeof(list_t));
